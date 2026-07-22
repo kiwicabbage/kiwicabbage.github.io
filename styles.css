@@ -113,7 +113,7 @@ h1 { font-size: 48px; font-weight: 700; letter-spacing: -0.02em; }
 .hero-desc strong { color: var(--text-main); font-weight: 600; }
 
 /* HIGHLIGHTS CARDS */
-.highlights-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.highlights-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .highlight-card {
   background: var(--panel-bg); border: 1px solid var(--border-color);
   padding: 20px; border-radius: 12px; display: flex; flex-direction: column; gap: 6px;
