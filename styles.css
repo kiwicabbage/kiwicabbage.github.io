@@ -290,21 +290,41 @@ h1 { font-size: 48px; font-weight: 700; letter-spacing: -0.02em; }
 }
 .back-top:hover { color: var(--accent-blue); }
 
-/* RESPONSIVE DESIGN */
+/* RESPONSIVE DESIGN & MOBILE OPTIMIZATIONS */
 @media (max-width: 900px) {
   .highlights-grid { grid-template-columns: repeat(2, 1fr); }
   .experience-grid, .portfolio-grid, .skills-edu-grid { grid-template-columns: 1fr; }
   .nav-links { display: none; }
-  h1 { font-size: 36px; }
+  h1 { font-size: 38px; }
   .role-title { font-size: 18px; }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .hero-header-wrap { flex-direction: column-reverse; align-items: flex-start; gap: 20px; }
+  .hero-avatar img { width: 90px; height: 90px; border-radius: 18px; }
+  .filter-bar { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 8px; -webkit-overflow-scrolling: touch; }
+  .filter-btn { flex: 0 0 auto; white-space: nowrap; font-size: 12px; padding: 7px 14px; }
   .highlights-grid { grid-template-columns: 1fr; }
+  .academic-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
   .header-actions .btn-github span { display: none; }
   .header-container { padding: 12px 16px; }
-  .main-content { padding: 32px 16px 60px; gap: 50px; }
-  .contact-card { padding: 32px 16px; }
+  .main-content { padding: 24px 16px 60px; gap: 40px; }
+  
+  h1 { font-size: 32px; letter-spacing: -0.01em; }
+  .role-title { font-size: 16px; }
+  .hero-desc { font-size: 14px; line-height: 1.6; }
+
+  .exp-card, .port-card, .edu-card, .skill-box, .highlight-card { padding: 18px 16px; }
+  .exp-header { flex-direction: column; align-items: flex-start; gap: 10px; }
+  .exp-meta { align-items: flex-start; flex-direction: row; flex-wrap: wrap; gap: 8px; }
+
+  .contact-card { padding: 28px 16px; }
+  .contact-content h2 { font-size: 22px; }
   .contact-actions { flex-direction: column; width: 100%; }
   .btn-main, .btn-sub { width: 100%; justify-content: center; }
+
+  .footer-container { flex-direction: column; gap: 12px; text-align: center; }
 }
