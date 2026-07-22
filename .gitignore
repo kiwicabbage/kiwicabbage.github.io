@@ -1,0 +1,10 @@
+.DS_Store
+
+# Private academic records: keep these on this computer only.
+312709045-Master-Grade.pdf
+410880062-Bachelor-Grade.pdf
+NYCU_DD_312709045_ch_0.pdf
+NYCU_DD_312709045_en_0.pdf
+
+# Empty local helper; it is not part of the static site.
+update_website.py

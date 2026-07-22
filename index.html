@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Terry Liu — Quantitative Researcher and Trading Systems Developer." />
+    <meta name="theme-color" content="#0d1117" />
+    <title>Terry Liu — Quantitative Research &amp; Trading Systems</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%230d1117%22/><path d=%22M13 18h38M32 18v31M15 43l10-10 8 6 16-20%22 stroke=%22%2338bdf8%22 stroke-width=%224%22 fill=%22none%22/></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-container">
+        <a class="brand" href="#top">
+          <span class="brand-badge">TL</span>
+          <span class="brand-text">Terry Liu <em>/ Quant Portfolio</em></span>
+        </a>
+        <nav class="nav-links">
+          <a href="#experience">Experience</a>
+          <a href="#portfolio">Projects</a>
+          <a href="#skills">Skills &amp; Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <a class="btn-github" href="https://github.com/kiwicabbage" target="_blank" rel="noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.57.1.78-.25.78-.55v-2.2c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.09 1.76 1.19 1.76 1.19 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.64 0-1.25.44-2.26 1.18-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.81 1.18 3.06 0 4.38-2.68 5.34-5.23 5.63.41.36.78 1.05.78 2.12v3.15c0 .3.2.66.79.55A11.4 11.4 0 0 0 12 .8Z"/></svg>
+            <span>kiwicabbage</span>
+          </a>
+          <a class="btn-cv" href="Terry%20Liu%20CV%20Resume%20(C%20Version).pdf" target="_blank" rel="noreferrer">
+            <span>Résumé PDF</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top" class="main-content">
+      <!-- HERO / PITCH SECTION -->
+      <section class="hero-section">
+        <div class="hero-header-wrap">
+          <div class="hero-header">
+            <div class="status-badge">
+              <span class="status-dot"></span> Open to Quant Research &amp; Trading Systems Roles
+            </div>
+            <h1>Terry Liu</h1>
+            <p class="role-title">Quantitative Researcher &amp; Trading Systems Developer</p>
+            <p class="hero-desc">
+              Bridging <strong>statistical research</strong> and <strong>high-throughput execution infrastructure</strong>. Experienced in market microstructure, noise-reduced machine learning, HFT data pipelines, and options trading strategies across Taiwan, Hong Kong, and Crypto markets.
+            </p>
+          </div>
+          <div class="hero-avatar">
+            <img src="profile.jpg" alt="Terry Liu" onerror="this.src='profile.png'; this.onerror=function(){this.parentElement.style.display='none';}" />
+          </div>
+        </div>
+
+        <!-- HIGHLIGHT CARDS (Key Signals) -->
+        <div class="highlights-grid">
+          <div class="highlight-card">
+            <div class="card-tag">TRACK RECORD</div>
+            <div class="card-val">Gold Consultant</div>
+            <div class="card-lbl">WorldQuant BRAIN</div>
+            <p>Systematic alpha search &amp; financial factor modeling.</p>
+          </div>
+          <div class="highlight-card">
+            <div class="card-tag">RESEARCH</div>
+            <div class="card-val">Master's Thesis</div>
+            <div class="card-lbl">NYCU Statistics &amp; Quant</div>
+            <p>Noise-reduced ML for Taiwan &amp; HK index futures.</p>
+          </div>
+          <div class="highlight-card">
+            <div class="card-tag">ENGINEERING</div>
+            <div class="card-val">20ms Depth-50</div>
+            <div class="card-lbl">HFT Crypto Pipeline</div>
+            <p>Go-based order book collector &amp; cloud storage streaming.</p>
+          </div>
+          <div class="highlight-card">
+            <div class="card-tag">EXECUTION</div>
+            <div class="card-val">Short Straddle</div>
+            <div class="card-lbl">Automated Options System</div>
+            <p>End-to-end Python/PyQt6 pipeline on GCP Linux.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- WORK EXPERIENCE SECTION -->
+      <section id="experience" class="section-block">
+        <div class="section-title-wrap">
+          <h2>Work &amp; Consulting Experience</h2>
+          <p>Professional experience in quantitative research, order book research, and systematic trading.</p>
+        </div>
+
+        <div class="experience-grid">
+
+          <div class="exp-card">
+            <div class="exp-header">
+              <div class="company-brand">
+                <img src="Bincentive.png" alt="Bincentive Logo" class="company-logo" />
+                <div>
+                  <h3>Bincentive</h3>
+                  <p class="company-sub">Cryptocurrency Quant Trading Firm</p>
+                </div>
+              </div>
+              <div class="exp-meta">
+                <span class="exp-badge">Quant Trading Intern</span>
+                <span class="exp-time">May — Dec 2025</span>
+              </div>
+            </div>
+            <ul class="exp-bullet-list">
+              <li>Researched cryptocurrency quantitative strategies covering <strong>options pricing</strong>, <strong>cross-market arbitrage</strong>, and <strong>DeFi yields</strong>.</li>
+              <li>Engineered dynamic risk management modules and transaction cost models for low-liquidity derivatives.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>Crypto Options</span><span>Arbitrage</span><span>Risk Management</span><span>Python</span>
+            </div>
+          </div>
+
+          <div class="exp-card">
+            <div class="exp-header">
+              <div class="company-brand">
+                <img src="SQM_technologies.png" alt="SQM Technologies Logo" class="company-logo" />
+                <div>
+                  <h3>SQM Technologies</h3>
+                  <p class="company-sub">Quantitative Trading &amp; Market Making</p>
+                </div>
+              </div>
+              <div class="exp-meta">
+                <span class="exp-badge">Quant Trading Intern</span>
+                <span class="exp-time">Apr — Jul 2025</span>
+              </div>
+            </div>
+            <ul class="exp-bullet-list">
+              <li>Conducting deep-learning research on <strong>Taiwan equity limit-order-book (LOB) data</strong>.</li>
+              <li>Developed DeepLOB neural network architectures (CNN + Inception + LSTM) for short-term price trend prediction.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>DeepLOB</span><span>PyTorch</span><span>Order Book Research</span><span>TWSE Equity</span>
+            </div>
+          </div>
+
+          <div class="exp-card">
+            <div class="exp-header">
+              <div class="company-brand">
+                <img src="WQ.png" alt="WorldQuant Logo" class="company-logo" />
+                <div>
+                  <h3>WorldQuant</h3>
+                  <p class="company-sub">Global Quantitative Investment Firm</p>
+                </div>
+              </div>
+              <div class="exp-meta">
+                <span class="exp-badge status-gold">Gold Consultant</span>
+                <span class="exp-time">Mar — Dec 2025</span>
+              </div>
+            </div>
+            <ul class="exp-bullet-list">
+              <li>Formulated systematic alpha factors and performed rigorous backtesting on WorldQuant BRAIN platform.</li>
+              <li>Achieved <strong>Gold Consultant status</strong> through high-performing, low-correlation alpha generation.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>Alpha Search</span><span>Factor Modeling</span><span>WorldQuant BRAIN</span>
+            </div>
+          </div>
+
+          <div class="exp-card">
+            <div class="exp-header">
+              <div class="company-brand">
+                <div class="logo-fallback dev-logo">OPT</div>
+                <div>
+                  <h3>Quant Options System</h3>
+                  <p class="company-sub">Independent Systematic Trading Project</p>
+                </div>
+              </div>
+              <div class="exp-meta">
+                <span class="exp-badge">Independent Developer</span>
+                <span class="exp-time">Feb — Apr 2025</span>
+              </div>
+            </div>
+            <ul class="exp-bullet-list">
+              <li>Built an end-to-end Linux/GCP automated trading application for <strong>Taiwan Index Options (TXO)</strong> short straddles.</li>
+              <li>Implemented real-time monitoring via PyQt6, secure broker API authentication, and state management.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>TXO Options</span><span>PyQt6</span><span>GCP / Linux</span><span>Shioaji API</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- PORTFOLIO / PROJECTS SECTION WITH FILTER -->
+      <section id="portfolio" class="section-block">
+        <div class="section-title-wrap">
+          <h2>Strategy &amp; Infrastructure Projects</h2>
+          <p>Key case studies spanning market research, machine learning models, and production trading engines.</p>
+        </div>
+
+        <!-- FILTER TABS -->
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects (7)</button>
+          <button class="filter-btn" data-filter="strategy">Quant Strategy</button>
+          <button class="filter-btn" data-filter="infra">Systems &amp; HFT</button>
+          <button class="filter-btn" data-filter="ml">Machine Learning</button>
+        </div>
+
+        <div class="portfolio-grid">
+
+          <!-- PROJECT 1 -->
+          <div class="port-card" data-category="strategy">
+            <div class="port-top">
+              <span class="port-type private">Private Strategy</span>
+              <span class="port-category">CRYPTO / MARKET MAKING</span>
+            </div>
+            <h3>Market Making for Low-Liquidity Futures</h3>
+            <p class="port-desc">Liquidity-provision strategy for Bybit delivery futures, designed around predictive quoting and cost-aware hedging in thin markets.</p>
+            <div class="port-details">
+              <div><strong>Research Question:</strong> Optimal quote placement for illiquid futures with imperfect hedging.</div>
+              <div><strong>Method:</strong> Predictive quoting, hedge instrument ranking, and funding-rate adjustment.</div>
+            </div>
+            <div class="port-footer">
+              <div class="tech-tags"><span>Market Making</span><span>Bybit</span><span>Cost Model</span></div>
+              <a class="link-btn" href="Terry%20Liu%20%E5%8A%89%E5%86%A0%E5%BB%B7%EF%BD%9C%20Portfolio%20Summary%20-%20HackMD.pdf" target="_blank">PDF Summary ↗</a>
+            </div>
+          </div>
+
+          <!-- PROJECT 2 -->
+          <div class="port-card" data-category="strategy ml">
+            <div class="port-top">
+              <span class="port-type public">Master's Thesis</span>
+              <span class="port-category">FUTURES / ML</span>
+            </div>
+            <h3>Noise-Reduced ML for Intraday Futures</h3>
+            <p class="port-desc">Directional classification for Taiwan and Hong Kong index futures, studying whether denoised targets and adaptive retraining improve OOS behavior.</p>
+            <div class="port-details">
+              <div><strong>Finding:</strong> Expanding-window model with denoised targets achieved the most stable out-of-sample profit.</div>
+              <div><strong>Portability:</strong> Reusable CTA framework adaptable across asset classes.</div>
+            </div>
+            <div class="port-footer">
+              <div class="tech-tags"><span>CTA</span><span>Noise Reduction</span><span>Walk-Forward</span></div>
+              <a class="link-btn" href="https://github.com/kiwicabbage/Thesis-Integrating-Noise-Reduction-and-ML-Models" target="_blank">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.57.1.78-.25.78-.55v-2.2c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.09 1.76 1.19 1.76 1.19 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.64 0-1.25.44-2.26 1.18-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.81 1.18 3.06 0 4.38-2.68 5.34-5.23 5.63.41.36.78 1.05.78 2.12v3.15c0 .3.2.66.79.55A11.4 11.4 0 0 0 12 .8Z"/></svg>
+                <span>GitHub Repo ↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- PROJECT 3 -->
+          <div class="port-card" data-category="ml">
+            <div class="port-top">
+              <span class="port-type progress">Active Research</span>
+              <span class="port-category">TWSE / MICROSTRUCTURE</span>
+            </div>
+            <h3>Pre-Market Limit Order Book Modeling</h3>
+            <p class="port-desc">Modeling 5-level order-book sequences from Taiwan's 08:30–09:00 call auction to improve opening price forecasting.</p>
+            <div class="port-details">
+              <div><strong>Dataset:</strong> Millisecond LOB snapshots for 50 TWSE constituents over 13 trading days (~650 samples).</div>
+              <div><strong>Architecture:</strong> DeepLOB combining CNN blocks, Inception modules, and LSTM layers.</div>
+            </div>
+            <div class="port-footer">
+              <div class="tech-tags"><span>PyTorch</span><span>DeepLOB</span><span>Call Auction</span></div>
+              <a class="link-btn" href="https://github.com/kiwicabbage/LOBster-NN" target="_blank">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.57.1.78-.25.78-.55v-2.2c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.09 1.76 1.19 1.76 1.19 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.64 0-1.25.44-2.26 1.18-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.81 1.18 3.06 0 4.38-2.68 5.34-5.23 5.63.41.36.78 1.05.78 2.12v3.15c0 .3.2.66.79.55A11.4 11.4 0 0 0 12 .8Z"/></svg>
+                <span>GitHub Repo ↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- PROJECT 4 -->
+          <div class="port-card" data-category="strategy infra">
+            <div class="port-top">
+              <span class="port-type public">Public System</span>
+              <span class="port-category">OPTIONS / SYSTEM</span>
+            </div>
+            <h3>Automated Short Straddle Options System</h3>
+            <p class="port-desc">Automated Taiwan index options workflow using statistical models for entry detection and direct API execution.</p>
+            <div class="port-details">
+              <div><strong>Architecture:</strong> Modular pipeline covering data acquisition, signals, risk control, and order execution.</div>
+              <div><strong>GUI &amp; Ops:</strong> Real-time PyQt6 monitoring dashboard deployed on GCP Linux instances.</div>
+            </div>
+            <div class="port-footer">
+              <div class="tech-tags"><span>TXO Options</span><span>PyQt6</span><span>GCP</span></div>
+              <a class="link-btn" href="https://github.com/kiwicabbage/sj-point" target="_blank">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.57.1.78-.25.78-.55v-2.2c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.09 1.76 1.19 1.76 1.19 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.64 0-1.25.44-2.26 1.18-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.81 1.18 3.06 0 4.38-2.68 5.34-5.23 5.63.41.36.78 1.05.78 2.12v3.15c0 .3.2.66.79.55A11.4 11.4 0 0 0 12 .8Z"/></svg>
+                <span>GitHub Repo ↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- PROJECT 5 -->
+          <div class="port-card" data-category="infra strategy">
+            <div class="port-top">
+              <span class="port-type public">Go Engine</span>
+              <span class="port-category">CRYPTO / ARBITRAGE</span>
+            </div>
+            <h3>BFUSD Arbitrage Engine</h3>
+            <p class="port-desc">Binance spot execution service for BFUSD discounts featuring maker/taker routing, basis-point entry gates, and quota tracking.</p>
+            <div class="port-details">
+              <div><strong>State Machine:</strong> 4-round redemption state backed by persistent BoltDB.</div>
+              <div><strong>Deployment:</strong> Containerized Docker app with Telegram alert integration.</div>
+            </div>
+            <div class="port-footer">
+              <div class="tech-tags"><span>Go</span><span>BoltDB</span><span>Docker</span></div>
+              <a class="link-btn" href="https://github.com/kiwicabbage/bn-bfusd-arb" target="_blank">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.57.1.78-.25.78-.55v-2.2c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.09 1.76 1.19 1.76 1.19 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.64 0-1.25.44-2.26 1.18-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.81 1.18 3.06 0 4.38-2.68 5.34-5.23 5.63.41.36.78 1.05.78 2.12v3.15c0 .3.2.66.79.55A11.4 11.4 0 0 0 12 .8Z"/></svg>
+                <span>GitHub Repo ↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- PROJECT 6 -->
+          <div class="port-card" data-category="infra">
+            <div class="port-top">
+              <span class="port-type public">Go / HFT</span>
+              <span class="port-category">HFT DATA / CLOUD</span>
+            </div>
+            <h3>HFT Order Book Collector</h3>
+            <p class="port-desc">High-speed Bybit depth-50 perpetual order book collector operating at 20ms intervals with automated GCS streaming.</p>
+            <div class="port-details">
+              <div><strong>Performance:</strong> 100k buffered channel with nanosecond-precision receive timestamps.</div>
+              <div><strong>Storage:</strong> Hourly gzip NDJSON auto-flushed to Google Cloud Storage.</div>
+            </div>
+            <div class="port-footer">
+              <div class="tech-tags"><span>Go</span><span>WebSocket</span><span>GCS</span></div>
+              <a class="link-btn" href="https://github.com/kiwicabbage/HFT-crypto-data-fetch" target="_blank">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.57.1.78-.25.78-.55v-2.2c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.09 1.76 1.19 1.76 1.19 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.64 0-1.25.44-2.26 1.18-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.81 1.18 3.06 0 4.38-2.68 5.34-5.23 5.63.41.36.78 1.05.78 2.12v3.15c0 .3.2.66.79.55A11.4 11.4 0 0 0 12 .8Z"/></svg>
+                <span>GitHub Repo ↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- PROJECT 7 -->
+          <div class="port-card" data-category="infra">
+            <div class="port-top">
+              <span class="port-type public">Web App</span>
+              <span class="port-category">MONITORING / WEB</span>
+            </div>
+            <h3>Hyperliquid Funding Rate Dashboard</h3>
+            <p class="port-desc">Authenticated web dashboard for monitoring real-time Hyperliquid funding-rate series and historical anomaly analysis.</p>
+            <div class="port-details">
+              <div><strong>Features:</strong> Automated funding opportunity scanner &amp; single-asset time-series inspector.</div>
+            </div>
+            <div class="port-footer">
+              <div class="tech-tags"><span>Web Dashboard</span><span>Hyperliquid</span><span>Python</span></div>
+              <a class="link-btn" href="https://github.com/kiwicabbage/Hyperliquid-FundingRate-Dashboard" target="_blank">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.57.1.78-.25.78-.55v-2.2c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.09 1.76 1.19 1.76 1.19 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.64 0-1.25.44-2.26 1.18-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.81 1.18 3.06 0 4.38-2.68 5.34-5.23 5.63.41.36.78 1.05.78 2.12v3.15c0 .3.2.66.79.55A11.4 11.4 0 0 0 12 .8Z"/></svg>
+                <span>GitHub Repo ↗</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SKILLS & EDUCATION SECTION -->
+      <section id="skills" class="section-block">
+        <div class="section-title-wrap">
+          <h2>Education &amp; Technical Skills</h2>
+          <p>Academic foundation in statistics and finance alongside practical software engineering stack.</p>
+        </div>
+
+        <div class="skills-edu-grid">
+
+          <!-- EDUCATION -->
+          <div class="edu-column">
+            <div class="edu-card">
+              <div class="edu-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/NYCU_logo.svg" alt="NYCU Logo" class="school-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                <div class="logo-fallback school-fallback" style="display:none;">NYCU</div>
+                <div>
+                  <h3>Master of Business Administration</h3>
+                  <p class="school-name">National Yang Ming Chiao Tung University (NYCU)</p>
+                  <span class="school-time">2023 — 2025</span>
+                </div>
+              </div>
+              <p class="edu-desc">Institute of Business and Management &middot; <strong>Minor in Institute of Statistics</strong></p>
+              <p class="edu-thesis">Thesis: <em>Integrating Noise Reduction and Machine Learning Models for Taiwan &amp; Hong Kong Futures Trading</em></p>
+            </div>
+
+            <div class="edu-card">
+              <div class="edu-header">
+                <div class="logo-fallback school-fallback">NTPU</div>
+                <div>
+                  <h3>Bachelor of Finance &amp; Cooperative Management</h3>
+                  <p class="school-name">National Taipei University (NTPU)</p>
+                </div>
+              </div>
+              <p class="edu-desc">Core training in finance, econometrics, statistical methods, programming, and asset allocation.</p>
+            </div>
+          </div>
+
+          <!-- SKILLS & COURSEWORK -->
+          <div class="skills-column">
+            <div class="skill-box">
+              <h4>Programming &amp; Frameworks</h4>
+              <div class="pill-group">
+                <span class="pill primary">Python</span>
+                <span class="pill primary">Go (Golang)</span>
+                <span class="pill">PyTorch</span>
+                <span class="pill">Pandas / NumPy</span>
+                <span class="pill">PyQt6</span>
+                <span class="pill">SQL / BoltDB</span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <h4>Infrastructure &amp; Tools</h4>
+              <div class="pill-group">
+                <span class="pill">Linux / Bash</span>
+                <span class="pill">Google Cloud (GCP)</span>
+                <span class="pill">Docker</span>
+                <span class="pill">Git / GitHub</span>
+                <span class="pill">WebSocket API</span>
+                <span class="pill">REST API</span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <h4>Graduate Coursework (NYCU)</h4>
+              <div class="academic-grid">
+                <a href="https://github.com/kiwicabbage/NYCU-Statistic-Calculate-25-spring" target="_blank">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.57.1.78-.25.78-.55v-2.2c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.09 1.76 1.19 1.76 1.19 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.64 0-1.25.44-2.26 1.18-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.81 1.18 3.06 0 4.38-2.68 5.34-5.23 5.63.41.36.78 1.05.78 2.12v3.15c0 .3.2.66.79.55A11.4 11.4 0 0 0 12 .8Z"/></svg>
+                  <span>Statistical Computing ↗</span>
+                </a>
+                <a href="https://github.com/kiwicabbage/NYCU-ML-25-spring" target="_blank">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.57.1.78-.25.78-.55v-2.2c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.09 1.76 1.19 1.76 1.19 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.64 0-1.25.44-2.26 1.18-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.81 1.18 3.06 0 4.38-2.68 5.34-5.23 5.63.41.36.78 1.05.78 2.12v3.15c0 .3.2.66.79.55A11.4 11.4 0 0 0 12 .8Z"/></svg>
+                  <span>Machine Learning ↗</span>
+                </a>
+                <a href="https://github.com/kiwicabbage/NYCU-Time-Series-25-spring" target="_blank">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.57.1.78-.25.78-.55v-2.2c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.09 1.76 1.19 1.76 1.19 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.64 0-1.25.44-2.26 1.18-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.81 1.18 3.06 0 4.38-2.68 5.34-5.23 5.63.41.36.78 1.05.78 2.12v3.15c0 .3.2.66.79.55A11.4 11.4 0 0 0 12 .8Z"/></svg>
+                  <span>Time Series ↗</span>
+                </a>
+                <a href="https://github.com/kiwicabbage/NYCU-Advanced-Algorithm-25-spring" target="_blank">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.57.1.78-.25.78-.55v-2.2c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.09 1.76 1.19 1.76 1.19 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.64 0-1.25.44-2.26 1.18-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.81 1.18 3.06 0 4.38-2.68 5.34-5.23 5.63.41.36.78 1.05.78 2.12v3.15c0 .3.2.66.79.55A11.4 11.4 0 0 0 12 .8Z"/></svg>
+                  <span>Advanced Algorithms ↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- CONTACT / FOOTER -->
+      <section id="contact" class="contact-card">
+        <div class="contact-content">
+          <h2>Let's Discuss Quantitative Opportunities</h2>
+          <p>Open to roles in Quantitative Research, Systematic Trading, and Quantitative Development in Taipei or Remote.</p>
+          <div class="contact-actions">
+            <a class="btn-main" href="mailto:terry.quant006@gmail.com">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+              <span>terry.quant006@gmail.com</span>
+            </a>
+            <a class="btn-sub" href="https://github.com/kiwicabbage" target="_blank">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.57.1.78-.25.78-.55v-2.2c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.09 1.76 1.19 1.76 1.19 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.64 0-1.25.44-2.26 1.18-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17a10.9 10.9 0 0 1 5.72 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.81 1.18 3.06 0 4.38-2.68 5.34-5.23 5.63.41.36.78 1.05.78 2.12v3.15c0 .3.2.66.79.55A11.4 11.4 0 0 0 12 .8Z"/></svg>
+              <span>GitHub Profile ↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <p>&copy; 2026 Terry Liu &middot; Quantitative Research &amp; Trading Systems</p>
+        <a href="#top" class="back-top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <!-- INTERACTIVE FILTER SCRIPT -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const filterBtns = document.querySelectorAll(".filter-btn");
+        const portCards = document.querySelectorAll(".port-card");
+
+        filterBtns.forEach(btn => {
+          btn.addEventListener("click", () => {
+            filterBtns.forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+
+            const filterValue = btn.getAttribute("data-filter");
+
+            portCards.forEach(card => {
+              if (filterValue === "all") {
+                card.style.display = "flex";
+              } else {
+                const categories = card.getAttribute("data-category").split(" ");
+                if (categories.includes(filterValue)) {
+                  card.style.display = "flex";
+                } else {
+                  card.style.display = "none";
+                }
+              }
+            });
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
